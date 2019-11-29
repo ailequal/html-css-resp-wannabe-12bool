@@ -32,11 +32,11 @@ body {
     font-size: 1.5em;
   }
 
-  .img_height_200 {
+  .img_height {
     height: 200px;
   }
 
-  .margin_top_20 {
+  .margin_top {
     margin-top: 20px;
   }
 }
@@ -57,11 +57,11 @@ body {
     font-size: 1.3em;
   }
 
-  .img_height_200 {
+  .img_height {
     height: 120px;
   }
 
-  .margin_top_20 {
+  .margin_top {
     margin-top: 10px;
   }
 }
@@ -82,11 +82,11 @@ body {
     font-size: 1.2em;
   }
 
-  .img_height_200 {
+  .img_height {
     height: 90px;
   }
 
-  .margin_top_20 {
+  .margin_top {
     margin-top: 8px;
   }
 }
