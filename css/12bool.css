@@ -11,13 +11,6 @@
   border: 0px;
 }
 
-.header > .container,
-.main > .container,
-.footer > .container {
-  width: 90%;
-  margin: auto;
-}
-
 .container::after {
   content: '';
   display: table;
@@ -27,6 +20,37 @@
 [class^="col-"] {
   float: left;
 }
+
+/* (min-width: 992px) */
+@media screen and (min-width: 992px) {
+  .header > .container,
+  .main > .container,
+  .footer > .container {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+/* (min-width: 768px) and (max-width: 992px) */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .header > .container,
+  .main > .container,
+  .footer > .container {
+    width: 85%;
+    margin: auto;
+  }
+}
+
+/* (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  body {
+    width: 95%;
+  }
+}
+
+
+
+
 
 /* col-n */
 .col-1 {
