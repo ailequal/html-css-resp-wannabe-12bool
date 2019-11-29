@@ -22,9 +22,7 @@
 
 /* large */
 @media screen and (min-width: 992px) {
-  .header > .container,
-  .main > .container,
-  .footer > .container {
+  .container-width {
     width: 80%;
     margin: auto;
   }
@@ -113,9 +111,7 @@
 
 /* medium */
 @media screen and (min-width: 768px) and (max-width: 992px) {
-  .header > .container,
-  .main > .container,
-  .footer > .container {
+  .container-width {
     width: 85%;
     margin: auto;
   }
@@ -204,9 +200,7 @@
 
 /* small */
 @media screen and (max-width: 768px) {
-  .header > .container,
-  .main > .container,
-  .footer > .container {
+  .container-width {
     width: 95%;
     margin: auto;
   }

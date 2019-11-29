@@ -1,5 +1,6 @@
 /* general */
 body {
+  margin: 20px 0;
   font-family: serif;
   font-size: 16px;
 }
@@ -17,7 +18,7 @@ body {
 }
 
 .how, .why {
-  background-color: #f9f9f9;
+  background-color: #BDC0C6;
 }
 
 .why img {
@@ -27,12 +28,6 @@ body {
 
 /* large */
 @media screen and (min-width: 992px) {
-  .header > .container,
-  .main > .container,
-  .footer > .container {
-    margin: 30px auto 0 auto;
-  }
-
   .paragraph_title {
     font-size: 2em;
   }
@@ -56,12 +51,6 @@ body {
 
 /* medium */
 @media screen and (min-width: 768px) and (max-width: 992px) {
-  .header > .container,
-  .main > .container,
-  .footer > .container {
-    margin: 25px auto 0 auto;
-  }
-
   .paragraph_title {
     font-size: 1.8em;
   }
@@ -85,12 +74,6 @@ body {
 
 /* small */
 @media screen and (max-width: 768px) {
-  .header > .container,
-  .main > .container,
-  .footer > .container {
-    margin: 22px auto 0 auto;
-  }
-
   .paragraph_title {
     font-size: 1.6em;
   }
