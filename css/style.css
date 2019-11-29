@@ -4,10 +4,20 @@ body {
   font-size: 16px;
 }
 
+[class^="col-"] {
+  padding: 10px;
+}
+
 /* header */
 /* empty */
 
 /* main */
+.header > .container,
+.main > .container,
+.footer > .container {
+  margin: 30px auto 0 auto;
+}
+
 .text_align_center {
   text-align: center;
 }
@@ -22,6 +32,10 @@ body {
 
 .img_height_200 {
   height: 200px;
+}
+
+.margin_top_20 {
+  margin-top: 20px;
 }
 
 /* footer */
