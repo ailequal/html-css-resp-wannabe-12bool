@@ -16,6 +16,15 @@ body {
   text-align: center;
 }
 
+.how, .why {
+  background-color: #f9f9f9;
+}
+
+.why img {
+  border-radius: 50%;
+  background-color: #428bca;
+}
+
 /* large */
 @media screen and (min-width: 992px) {
   .header > .container,
@@ -34,6 +43,10 @@ body {
 
   .img_height {
     height: 200px;
+  }
+
+  .img_padding {
+    padding: 20px;
   }
 
   .margin_top {
@@ -61,6 +74,10 @@ body {
     height: 120px;
   }
 
+  .img_padding {
+    padding: 16px;
+  }
+
   .margin_top {
     margin-top: 10px;
   }
@@ -84,6 +101,10 @@ body {
 
   .img_height {
     height: 90px;
+  }
+
+  .img_padding {
+    padding: 12px;
   }
 
   .margin_top {
