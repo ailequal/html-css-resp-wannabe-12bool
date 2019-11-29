@@ -1,6 +1,10 @@
 /* debug */
+.debug .container {
+  border: 1px solid red;
+}
+
 .debug [class^="col-"] {
-  border: 2px solid red;
+  border: 1px solid blue;
 }
 
 /* general */
